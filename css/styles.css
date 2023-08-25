@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Coiny&family=Sono:wght@400;600;700&family=Tilt+Prism&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+:root {
+    ---root-color: #fff; /* todo background color*/
+    --primary-color: #075985; /* text color*/
+    --secondary-color: #eff6ff; /* whole background color*/
+    --red-color: #ff0000;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Bitter', serif;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title_name {
+    font-family: 'Tilt Prism', cursive;
+    font-size: 5rem;
+    margin: 4rem 0 1rem ;
+}
+.input-wrapper {
+    width: 100%;
+    margin: 2rem 0;
+    border: 1px solid rgb(3, 161, 161);
+    border-radius: 1rem;
+    
+   
+}
+.insert--text, .save {
+    padding: 1rem;
+    border: none;
+    outline-color:  rgb(3, 161, 161);
+    border-radius: 1rem;
+    background-color: transparent;
+    font-size: 1.5rem;
+    outline: none;
+
+
+}
+.save {
+    font-size: 3rem;
+    color: #0c0cd4;
+}
+.save:hover {
+    color: #0000ff;
+    cursor: pointer;
+   
+}
+
+.insert--text::placeholder {
+    color: #d4d4d4;
+    font-size: 1.5rem;
+}
+.todo-wrapper {
+    padding: 1rem 3rem;
+    background-color: var(---root-color);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+ul {
+    list-style-type: none;
+}
+.list {
+    font-size: 2rem;
+
+}
+
+.title--list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    border: 1px solid #e0cece;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+.delete {
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+    color: var(--red-color);
+
+}
+.delete:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+}
