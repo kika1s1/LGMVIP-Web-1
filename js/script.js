@@ -1,7 +1,7 @@
 const insertText = document.querySelector('.insert--text')
 const saveBtn = document.querySelector('.save')
 const listItem = document.querySelector('.list')
-const deleteBtn = document.querySelector('.delete')
+
 const listWrapper = document.querySelector('.list-wrapper')
 
 const ITEMS = []
@@ -46,12 +46,16 @@ const createList = (ITEMS) => {
                 listWrapper.innerHTML += list
             }
             )
+
+            
             
         }
     };
     
-
 }
 
 createList(ITEMS)
+
+
+
 
