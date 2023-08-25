@@ -25,6 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 .title_name {
     font-family: 'Tilt Prism', cursive;
@@ -36,7 +37,9 @@ body {
     margin: 2rem 0;
     border: 1px solid rgb(3, 161, 161);
     border-radius: 1rem;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
    
 }
 .insert--text, .save {
@@ -86,6 +89,7 @@ ul {
     margin-top: 1rem;
     border: 1px solid #e0cece;
     padding: 1rem;
+    gap: 100px;
     border-radius: 1rem;
 
 }
