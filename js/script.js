@@ -47,12 +47,12 @@ createList(ITEMS)
 // delete and line-through functionality
 listWrapper.addEventListener('click', (e) => {
     if (e.target.tagName === 'LI') {
-        console.log(e.target.parentElement.remove())
+        e.srcElement.classList.toggle('overwrite')
         saveData()
        
     }
     else if (e.target.tagName === 'I') {
-        e.target.tagName.classList.toggle('overwrite')
+        e.srcElement.parentElement.remove()
         saveData()
     }
     
