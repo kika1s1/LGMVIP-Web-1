@@ -9,6 +9,6 @@
     <li>SAVE FOR THE FUTURE</li>
 </ul>
 
-<a href="https://kika1s1.github.io/LGMVIP-Web-3/"> visit published version</a>
+<a href="https://kika1s1.github.io/LGMVIP-Web-1/"> visit published version</a>
 <br/>
 <footer>&copyright 2023 LMGVIP internship</footer>
