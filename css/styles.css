@@ -106,6 +106,10 @@ ul {
     cursor: pointer;
     filter: brightness(90%);
 }
+.overwrite {
+    text-decoration: line-through;
+}
+
 @media (max-width: 900px) {
     .todo-wrapper { 
         padding: 1rem 3rem;
